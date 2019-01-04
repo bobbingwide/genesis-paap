@@ -1,0 +1,83 @@
+/* (C) Copyright Bobbing Wide 2011-2015 */
+
+.nav-primary { background-color: #ffffff; }
+
+.nav-header {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.genesis-nav-menu { 
+        background-color: #eee; 
+        border-bottom: 1px solid gray;
+}
+
+.genesis-nav-menu a { 
+        padding: 12px 24px; 
+}         
+.nav-primary .genesis-nav-menu a { color: #000; }
+
+
+.nav-primary .genesis-nav-menu a:hover {
+        background: #616161;
+        color: #F2FFDF;
+}  
+
+.nav-primary .genesis-nav-menu .current-menu-item > a,
+.nav-primary .genesis-nav-menu .current-menu-ancestor > a {
+        color: #000;
+        border-top: 1px solid gray;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        border-bottom: 2px solid #eee;
+        margin-bottom: -1px;
+}
+ 
+.nav-primary .genesis-nav-menu ul.sub-menu .current-menu-item > a {
+        color: #000;
+        border-top: 0px solid gray;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        margin-bottom: -1px;
+}
+
+
+
+.sidebar .widget { padding: 0px; }
+aside.sidebar .bw_images { padding: 0px; }
+.site-header .wrap { padding: 0px; }
+
+
+/**
+ * Colour mapping from Genesis default to genesis-aati
+ *
+ * Using .theme-blue
+ * 
+ * | default color   |  wbwb color  | which is   | for what
+ * |-----------------|------------- | ---------  | --------
+ * | color: #333     |  #3293f2     | light blue | body text
+ * | color: #e5554e  |  #111593     | dark blue  | links and menu items
+ * | color: #333     |  #161d61     | darker blue| hovered link
+ * | color: #333     |  #dedf22     | yellow     | menu background when hovered. footer background, footer links
+ * | font: Lato      | font: Garamond, Georgia - undone 2015/01/22
+ * | font: Lato      | font: Lato, Helvetica
+ */
+ 
+.title-area { padding: 0px; }
+
+.site-title { font-family: "Times", serif;
+        font-size: 3.8em;
+        text-transform: uppercase;
+        line-height: 0.9;
+        -webkit-margin-before: 0px;
+} 
+.site-description { font-family: "Times-New-Roman", serif; 
+        font-size: 1.90em;
+} 
+
+.sidebar-content-sidebar .content, .sidebar-sidebar-content .content {
+   width: 100%;
+}
+
+img.bw_thumbnail { padding: 0px; }                 
